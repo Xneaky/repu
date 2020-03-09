@@ -27,7 +27,15 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
 
-            @include('include.sidebar-profile')
+      @guest
+          @if (Route::has('register'))
+          
+          @endif
+      @else
+      @include('include.sidebar-profile')
+      @endguest      
+      
+
 
     </aside>
 

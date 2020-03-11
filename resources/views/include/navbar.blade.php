@@ -13,8 +13,6 @@
       </li>
     </ul>
 
-<<<<<<< HEAD
-=======
     {{-- <!-- SEARCH FORM -->
     <form class="form-inline ml-3">
       <div class="input-group input-group-sm">
@@ -27,7 +25,6 @@
       </div>
     </form> --}}
 
->>>>>>> Navbar fix
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
       <!-- Messages Dropdown Menu -->

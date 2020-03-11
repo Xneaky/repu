@@ -13,29 +13,19 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                {{ Auth::user()->name }}
-                <i class="right fas fa-angle-left"></i>
-=======
-          <li class="nav-item has-treeview">
-=======
+
         @guest
         @if (Route::has('register'))
         @endif
         @else
          <li class="nav-item has-treeview">
->>>>>>> sidebar guest
+
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-user-circle"></i>
               <p>
                  {{ Auth::user()->name }}
                 <i class="fas fa-angle-left right"></i>
->>>>>>> Navbar fix
+
               </p>
             </a>
             <ul class="nav nav-treeview">

@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard.index');
-})->middleware('auth');
+Route::get('/', function () {return view('dashboard.index');})->middleware('auth');
+Route::get('/main', function () {return view('guest.index');});
 
 Auth::routes();
 

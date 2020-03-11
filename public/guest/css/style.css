@@ -597,13 +597,13 @@ a:hover {
 }
 
 .bg-1 {
-  background-image: url("../images/backgrounds/bg-1.jpg");
+  background-image: url("/public/guest/images/bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg-2 {
-  background-image: url("../images/backgrounds/bg-2.jpg");
+  background-image: url(../../../public/guest/images/bg-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

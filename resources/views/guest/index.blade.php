@@ -12,7 +12,7 @@
 
 	<meta name="author" content="Muhammad Morshed">
 
-	<title>Meghna | Responsive Multipurpose Parallax HTML5 Template</title>
+	<title>Republik</title>
 
 	<!-- Mobile Specific Meta
 		================================================== -->
@@ -24,18 +24,18 @@
 	<!-- CSS
 		================================================== -->
 	<!-- Fontawesome Icon font -->
-	<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/themefisher-font/style.css') }}">
 	<!-- bootstrap.min css -->
-	<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/bootstrap/dist/css/bootstrap.min.css') }}">
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="plugins/animate-css/animate.css">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/animate-css/animate.css') }}">
 	<!-- Magnific popup css -->
-	<link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/magnific-popup/dist/magnific-popup.css') }}">
 	<!-- Slick Carousel -->
-	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/slick-carousel/slick/slick.css') }}">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/slick-carousel/slick/slick-theme.css') }}">
 	<!-- Main Stylesheet -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="{{ asset('guest/css/style.css') }}">
 
 
 </head>
@@ -240,8 +240,8 @@ Welcome Slider
 <!--
 Start Call To Action
 ==================================== -->
-<section class="call-to-action section-sm bg-1 overly">
-	<div class="container">
+<section class="call-to-action section-sm bg-1 overly" style=" background-image: url('{{asset('guest/images/bg-1.jpg')}}');">
+	<div class="container" >
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<h2>Great Design & Incredible Features</h2>
@@ -343,75 +343,7 @@ Start Call To Action
 </section>   <!-- End section -->
 	
 
-<!-- Start Team Skills
-		=========================================== -->
-		
-		<section id="team-skills" class="parallax-section section section-bg overly">
-			<div class="container">
-				<div class="row" >
-					<!-- section title -->
-					<div class="col-md-12">
-						<div class="title text-center">
-							<h2>Our <span class="color">Skills</span></h2>
-							<div class="border"></div>
-						</div>
-					</div>
-					<!-- /section title -->
-				</div>  		<!-- End row -->
-				<div class="row">
-					<div class="col-md-6">
-						<h2>We’ve skilled in wide range of web and <br>
-							Other digital market tools.</h2>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!</p>
-							<img class="img-responsive" src="images/about/company-growth.png" alt="">
-					</div>
-					<div class="col-md-6">
-						<ul class="skill-bar">
-							<li>
-								<p><span>01-</span> Business Development</p>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:90%">
-									</div>
-								</div>
-							</li>
-							<li>
-								<p><span>02-</span> Analysis</p>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:70%">
-									</div>
-								</div>
-							</li>
-							<li>
-								<p><span>03-</span> Design</p>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:85%">
-									</div>
-								</div>
-							</li>
-							<li>
-								<p><span>04-</span> IOS Development</p>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:60%">
-									</div>
-								</div>
-							</li>
-							<li>
-									<p><span>04-</span> Andriod Development</p>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" aria-valuenow="70"
-										aria-valuemin="0" aria-valuemax="100" style="width:94%">
-										</div>
-									</div>
-								</li>
-						</ul>
-					</div>
-				</div>
-			</div>   	<!-- End container -->
-		</section>   <!-- End section -->
+
 
 <!-- Start Portfolio Section
 		=========================================== -->
@@ -564,7 +496,7 @@ Start Call To Action
 Start Counter Section
 ==================================== -->
 		
-<section id="counter" class="parallax-section bg-1 section overly">
+<section id="counter" class="parallax-section bg-1 section overly" style=" background-image: url('{{asset('guest/images/bg-1.jpg')}}');">
 	<div class="container">
 		<div class="row">
 		
@@ -633,7 +565,7 @@ Start Our Team
                <div class="team-member">
 					<div class="member-photo">
 						<!-- member photo -->
-						<img class="img-responsive" src="images/team/team-1.jpg" alt="Meghna">
+						<img class="img-responsive" src="{{asset('storage').'/uploads/7EjLJykeGhhBd2zx39mJNKsAaV5w1KucJfzvjglk.jpeg'}}" alt="Meghna">
 						<!-- /member photo -->
 						
 						<!-- member social profile -->
@@ -762,149 +694,11 @@ Start Our Team
 </section>   <!-- End section -->
 		
 
-<!-- Start Pricing section
-		=========================================== -->
-		
-		<section id="pricing" class="pricing section">
-			<div class="container">
-				<div class="row">
-					
-					<!-- section title -->
-				    <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
-			        	<h2>Our Greatest<span class="color"> Plans</span></h2>
-				        <div class="border"></div>
-				    </div>
-				    <!-- /section title -->
-					
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="200ms">
-						<div class="price-item">
-							
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Free</h3>
-								<p><strong class="value">$99</strong>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-							
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-							
-						</div>
-					</div>
-					<!-- end single pricing table -->
-					
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="price-item">
-						
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Silver</h3>
-								<p><strong class="value">$149</strong/>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-							
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-							
-						</div>
-					</div>
-					<!-- end single pricing table -->
-					
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="price-item">
-							
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Gold</h3>
-								<p><strong class="value">$199</strong/>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-							
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-							
-						</div>
-					</div>
-					<!-- end single pricing table -->
-					
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="750ms">
-						<div class="price-item">
-						
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Platinum</h3>
-								<p><strong class="value">$299</strong/>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-							
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-							
-						</div>
-					</div>
-					<!-- end single pricing table -->
-				    
-					
-				</div>       <!-- End row -->
-			</div>   	<!-- End container -->
-		</section>   <!-- End section -->
 
 <!-- Start Testimonial
 		=========================================== -->
 
-<section id="testimonial" class="testimonial overly section bg-2">
+<section id="testimonial" class="testimonial overly section bg-2" style=" background-image: url('{{asset('guest/images/bg-2.jpg')}}');">
 	<div class="container">
 		<div class="row">				
 			<div class="col-lg-12">
@@ -1140,11 +934,6 @@ Start Our Team
 		</div> <!-- end row -->
 	</div> <!-- end container -->
 	
-	<!-- Google Map -->
-	<div class="google-map">
-		<div id="map-canvas"></div>
-	</div>	
-	<!-- /Google Map -->
 	
 </section> <!-- end section -->
 	
@@ -1213,27 +1002,27 @@ Start Our Team
 		=====================================-->
 		
 		<!-- Main jQuery -->
-		<script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/jquery/dist/jquery.min.js') }}"></script>
 		<!-- Bootstrap 3.1 -->
-		<script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 		<!-- Slick Carousel -->
-		<script type="text/javascript" src="plugins/slick-carousel/slick/slick.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/slick-carousel/slick/slick.min.js') }}"></script>
 		<!-- Portfolio Filtering -->
-		<script type="text/javascript" src="plugins/filterzr/jquery.filterizr.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/filterzr/jquery.filterizr.min.js') }}"></script>
 		<!-- Smooth Scroll -->
-		<script type="text/javascript" src="plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/smooth-scroll/dist/js/smooth-scroll.min.js') }}"></script>
 		<!-- Magnific popup -->
-		<script type="text/javascript" src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/magnific-popup/dist/jquery.magnific-popup.min.js') }}"></script>
 		<!-- Google Map API -->
 		<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
 		<!-- Sticky Nav -->
-		<script type="text/javascript" src="plugins/Sticky/jquery.sticky.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/Sticky/jquery.sticky.js') }}"></script>
 		<!-- Number Counter Script -->
-		<script type="text/javascript" src="plugins/count-to/jquery.countTo.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/count-to/jquery.countTo.js') }}"></script>
 		<!-- wow.min Script -->
-		<script type="text/javascript" src="plugins/wow/dist/wow.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/wow/dist/wow.min.js') }}"></script>
 		<!-- Custom js -->
-		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/js/script.js') }}"></script>
 		
     </body>
 </html>

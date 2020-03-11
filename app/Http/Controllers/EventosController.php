@@ -60,7 +60,7 @@ class EventosController extends Controller
             $datosEvento['Foto']=$request->file('Foto')->store('uploads','public');
         }
 
-        Eventos::create($datosEvento);
+        Eventos::insert($datosEvento);
         return redirect('eventos')->with('Mensaje','Evento agregado con exito');
     }
 

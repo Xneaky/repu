@@ -74,7 +74,7 @@ Welcome Slider
 				<i class="tf-ion-play"></i>
 		</a>
 		</div>
-		<h1>Experience the new reality</h1>
+		<h1>Experimenta!</h1>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!</p>
 		<a data-scroll href="#services" class="btn btn-transparent">Explore Us</a>
 	</div>
@@ -115,13 +115,10 @@ Welcome Slider
         <nav class="collapse navbar-collapse navbar-right" role="Navigation">
             <ul id="nav" class="nav navbar-nav navigation-menu">
                 <li><a data-scroll href="#body">Home</a></li>
-                <li><a data-scroll href="#about">About Us</a></li>
-                <li><a data-scroll href="#services">Services</a></li>
-                <li><a data-scroll href="#portfolio">Portfolio</a></li>
-                <li><a data-scroll href="#our-team">Team</a></li>
-                <li><a data-scroll href="#pricing">Pricing</a></li>
-                <li><a data-scroll href="#blog">Blog</a></li>
-                <li><a data-scroll href="#contact-us">Contact</a></li>
+                <li><a data-scroll href="#about">Acerca de</a></li>
+                <li><a data-scroll href="#services">Servicios</a></li>
+                <li><a data-scroll href="#blog">Eventos</a></li>
+                <li><a data-scroll href="#contact-us">Contactanos</a></li>
             </ul>
         </nav>
         <!-- /main nav -->
@@ -135,13 +132,13 @@ Welcome Slider
 <!--
 		Start About Section
 		==================================== -->
-		<section class="bg-one about section">
+		<section class="bg-one about section" id="about">
 			<div class="container">
 				<div class="row">
 				
 					<!-- section title -->
 					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-						<h2>About <span class="color">Us</span> </h2>
+						<h2>Acerca <span class="color">de</span> </h2>
 						<div class="border"></div>
 					</div>
 					<!-- /section title -->
@@ -154,7 +151,7 @@ Welcome Slider
 							</div>					
 							<!-- Express About Yourself -->
 							<div class="content text-center">
-								<h3 class="ddd">We're Creative</h3>								
+								<h3 class="ddd">Titulo 1</h3>								
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos</p>
 							</div>
 						</div>
@@ -169,7 +166,7 @@ Welcome Slider
 							</div>
 							<!-- Express About Yourself -->
 							<div class="content text-center">
-								<h3>We're Professional</h3>
+								<h3>Titulo 2</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos</p>
 							</div>
 						</div>
@@ -184,7 +181,7 @@ Welcome Slider
 							</div>
 							<!-- Express About Yourself -->
 							<div class="content text-center">
-								<h3>We're Genius</h3>
+								<h3>Titulo 3</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos</p>
 							</div>
 						</div>
@@ -195,7 +192,7 @@ Welcome Slider
 			</div>   	<!-- End container -->
 		</section>   <!-- End section -->
 
-<section class="section about-2 padding-0 bg-dark" id="about">
+<section class="section about-2 padding-0 bg-dark" >
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6 padding-0 ">
@@ -203,7 +200,7 @@ Welcome Slider
 			</div>
 			<div class="col-md-6">
 				<div class="content-block">
-					<h2>We’re A Digital Design Agency.</h2>
+					<h2>Ven y diviertete.</h2>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.</p>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eveniet vel et mollitia nemo corporis sed ut, exercitationem incidunt, rerum nam doloremque quos ratione doloribus, officiis adipisci error quasi soluta?</p>
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, magnam.</p>
@@ -214,7 +211,7 @@ Welcome Slider
 									<i class="tf-circle-compass"></i>	
 								</div>
 								<div class="media-body">
-									<h4 class="media-heading">SEO Optimized</h4>
+									<h4 class="media-heading">Eventos diarios</h4>
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe</p>
 								</div>
 							</div>
@@ -225,7 +222,7 @@ Welcome Slider
 									<i class="tf-hotairballoon"></i>	
 								</div>
 								<div class="media-body">
-									<h4 class="media-heading">Easy Customization</h4>
+									<h4 class="media-heading">Facil acceso</h4>
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus </p>
 								</div>
 							</div>
@@ -237,20 +234,6 @@ Welcome Slider
 	</div>
 </section>
 
-<!--
-Start Call To Action
-==================================== -->
-<section class="call-to-action section-sm bg-1 overly" style=" background-image: url('{{asset('guest/images/bg-1.jpg')}}');">
-	<div class="container" >
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h2>Great Design & Incredible Features</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? <br> Omnis accusantium ea reiciendis, fugit commodi nostrum.</p>
-				<a href="#" class="btn btn-main">Start a project with us</a>
-			</div>
-		</div> 		<!-- End row -->
-	</div>   	<!-- End container -->
-</section>   <!-- End section -->
 
 <!-- Start Services Section
 ==================================== -->
@@ -261,7 +244,7 @@ Start Call To Action
 			
 			<!-- section title -->
 			<div class="title text-center wow fadeIn" data-wow-duration="500ms">
-				<h2>Our <span class="color">Services</span></h2>
+				<h2>Nuestros <span class="color">Servicios</span></h2>
 				<div class="border"></div>
 			</div>
 			<!-- /section title -->
@@ -272,7 +255,7 @@ Start Call To Action
 					<div class="service-icon text-center">
 						<i class="tf-globe"></i>
 					</div>
-					<h3>WordPress Theme</h3>
+					<h3>Musica en vivo</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
 			</article>
@@ -284,7 +267,7 @@ Start Call To Action
 					<div class="service-icon text-center">
 						<i class="tf-ion-laptop"></i>
 					</div>
-					<h3>Responsive Design</h3>
+					<h3>Comida</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
 			</article>
@@ -296,7 +279,7 @@ Start Call To Action
 					<div class="service-icon text-center">
 						<i class="tf-genius"></i>
 					</div>
-					<h3>Media &amp; Advertisement</h3>
+					<h3>Bedidas &amp; Buen ambiente</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
 			</article>
@@ -308,7 +291,7 @@ Start Call To Action
 					<div class="service-icon text-center">
 						<i class="tf-dial"></i>
 					</div>
-					<h3>Graphic Design</h3>
+					<h3>Servicio 4</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
 			</article>
@@ -320,7 +303,7 @@ Start Call To Action
 					<div class="service-icon text-center">
 						<i class="tf-target3"></i>
 					</div>
-					<h3>Apps Development</h3>
+					<h3>Servicio 5</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
 			</article>
@@ -332,7 +315,7 @@ Start Call To Action
 					<div class="service-icon text-center">
 						<i class="tf-lifesaver"></i>
 					</div>
-					<h3>Networking</h3>
+					<h3>Servicio 6</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
 			</article>
@@ -345,353 +328,9 @@ Start Call To Action
 
 
 
-<!-- Start Portfolio Section
-		=========================================== -->
 
-<section class="portfolio section" id="portfolio">
-	<div class="container">
-		<div class="row ">
-			<div class="col-lg-12">
-				<!-- section title -->
-				<div class="title text-center">
-					<h2>Our <span class="color">Works</span></h2>
-					<div class="border"></div>
-				</div>
-				<!-- /section title -->
-			</div> <!-- /end col-lg-12 -->
-		</div> <!-- end row -->
-		<div class="row">
-			<div class="col-md-12">
-				<div class="portfolio-filter">
-					<button class="active" type="button" data-filter="all">All</button>
-					<button type="button" data-filter="photography">Photography</button>
-					<button type="button" data-filter="design">Design</button>
-					<button type="button" data-filter="development">Development</button>
-				</div>
-			</div>
-		</div>
-		<div class="row filtr-container">
-			<div class="col-lg-4 filtr-item" data-category="development">
-				<div class="portfolio-block">
-					<img class="img-responsive" src="images/portfolio/portfolio-1.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Tag Design</a></h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-md-4" data-category="design">
-				<div class="portfolio-block">
-					<img class="img-responsive" src="images/portfolio/portfolio-2.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-2.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Sound system</a></h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-md-4" data-category="design, development">
-				<div class="portfolio-block">
-					<img class="img-responsive" src="images/portfolio/portfolio-3.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-3.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Clock Product</a></h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-md-4" data-category="photography, development">
-				<div class="portfolio-block">
-					<img class="img-responsive" src="images/portfolio/portfolio-4.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-4.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Bottol Label</a></h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-md-4" data-category="design">
-				<div class="portfolio-block">
-					<img class="img-responsive" src="images/portfolio/portfolio-5.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-5.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Shopping Bag</a></h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-md-4" data-category="photography">
-				<div class="portfolio-block">
-					<img class="img-responsive" src="images/portfolio/portfolio-6.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-6.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Tag Design</a></h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-md-4" data-category="design">
-				<div class="portfolio-block">
-					<img class="img-responsive" src="images/portfolio/portfolio-7.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-7.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Business Card</a></h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-md-4" data-category="design">
-				<div class="portfolio-block">
-					<img class="img-responsive" src="images/portfolio/portfolio-8.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-8.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Stationary Design</a></h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-md-4" data-category="photography, development">
-				<div class="portfolio-block">
-					<img class="img-responsive" src="images/portfolio/portfolio-1.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Tag Design</a></h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> <!-- end container -->
-</section> <!-- End section -->
-
-<!--
-Start Counter Section
-==================================== -->
-		
-<section id="counter" class="parallax-section bg-1 section overly" style=" background-image: url('{{asset('guest/images/bg-1.jpg')}}');">
-	<div class="container">
-		<div class="row">
-		
-			<!-- first count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
-				<div class="counters-item">
-					<i class="tf-ion-android-happy"></i>
-					<span data-speed="3000" data-to="320">320</span>
-					<h3>Happy Clients</h3>
-				</div>
-			</div>
-			<!-- end first count item -->
-		
-			<!-- second count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
-				<div class="counters-item">
-					<i class="tf-ion-archive"></i>
-					<span data-speed="3000" data-to="565">565</span>
-					<h3>Projects completed</h3>
-				</div>
-			</div>
-			<!-- end second count item -->
-		
-			<!-- third count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
-				<div class="counters-item">
-					<i class="tf-ion-thumbsup"></i>
-					<span data-speed="3000" data-to="95">95</span>
-					<h3>Positive feedback</h3>
-					
-				</div>
-			</div>
-			<!-- end third count item -->
-			
-			<!-- fourth count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
-				<div class="counters-item kill-margin-bottom">
-					<i class="tf-ion-coffee"></i>
-					<span data-speed="3000" data-to="2500">2500</span>
-					<h3>Cups of Coffee</h3>
-				</div>
-			</div>
-			<!-- end fourth count item -->
-			
-		</div> 		<!-- end row -->
-	</div>   	<!-- end container -->
-</section>   <!-- end section -->
 
 <!-- 
-Start Our Team
-=========================================== -->
-
-<section id="our-team" class="section">
-	<div class="container">
-		<div class="row">
-		
-			<!-- section title -->
-			<div class="title text-center wow fadeInUp" data-wow-duration="500ms">
-				<h2>Our <span class="color">Team</span></h2>
-				<div class="border"></div>
-			</div>
-			<!-- /section title -->
-			
-			<!-- team member -->
-			<div class="col-md-3 col-sm-6 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
-               <div class="team-member">
-					<div class="member-photo">
-						<!-- member photo -->
-						<img class="img-responsive" src="{{asset('storage').'/uploads/7EjLJykeGhhBd2zx39mJNKsAaV5w1KucJfzvjglk.jpeg'}}" alt="Meghna">
-						<!-- /member photo -->
-						
-						<!-- member social profile -->
-						<div class="mask">
-							<ul class="list-inline">
-								<li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-							</ul>
-						</div>
-						<!-- /member social profile -->
-					</div>
-					
-					<!-- member name & designation -->
-					<div class="member-meta">
-						<h4>Abul Mal Muhit</h4>
-						<span>CEO/Founder</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-					</div>
-					<!-- /member name & designation -->
-					<!-- /about member -->
-				   
-               </div>
-            </div>
-			<!-- end team member -->
-			
-			<!-- team member -->
-			<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
-               <div class="team-member">
-					<div class="member-photo">
-						<!-- member photo -->
-						<img class="img-responsive" src="images/team/team-2.jpg" alt="Meghna">
-						<!-- /member photo -->
-						
-						<!-- member social profile -->
-						<div class="mask">
-							<ul class="list-inline">
-								<li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-							</ul>
-						</div>
-						<!-- /member social profile -->
-					</div>
-					
-					<!-- member name & designation -->
-					<div class="member-meta">
-						<h4>Frank Miller</h4>
-						<span>Manager</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-					</div>
-					<!-- /member name & designation -->
-					<!-- /about member -->
-				</div>
-            </div>
-			<!-- end team member -->
-			
-			<!-- team member -->
-			<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
-               <div class="team-member">
-					<div class="member-photo">
-						<!-- member photo -->
-						<img class="img-responsive" src="images/team/team-3.jpg" alt="Meghna">
-						<!-- /member photo -->
-						
-						<!-- member social profile -->
-						<div class="mask">
-							<ul class="list-inline">
-								<li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-							</ul>
-						</div>
-						<!-- /member social profile -->
-					</div>
-					
-					<!-- member name & designation -->
-					<div class="member-meta">
-						<h4>Michael Jonson</h4>
-						<span>Web Developer</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-					</div>
-					<!-- /member name & designation -->
-					<!-- /about member -->
-               </div>
-            </div>
-			<!-- end team member -->
-			
-			<!-- team member -->
-			<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
-               <div class="team-member">
-					<div class="member-photo">
-						<!-- member photo -->
-						<img class="img-responsive" src="images/team/team-4.jpg" alt="Meghna">
-						<!-- /member photo -->
-						
-						<!-- member social profile -->
-						<div class="mask">
-							<ul class="list-inline">
-								<li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-							</ul>
-						</div>
-						<!-- /member social profile -->
-					</div>
-					
-					<!-- member name & designation -->
-					<div class="member-meta">
-						<h4>Mo. Kha. Alamgir</h4>
-						<span>SEO Specialist</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-					</div>
-					<!-- /member name & designation -->
-					<!-- /about member -->
-               </div>
-            </div>
-			<!-- end team member -->
-			
-		</div>  	<!-- End row -->
-	</div>   	<!-- End container -->
-</section>   <!-- End section -->
 		
 
 
@@ -717,8 +356,8 @@ Start Our Team
 						<!-- client info -->
 						<div class="client-info">
 							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
-								<span>Dec 26, 2018</span>
+								<h3>Javier Castillo</h3>
+								<span>15 Enero, 2019</span>
 							</div>
 							<div class="client-comment">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!</p>
@@ -740,8 +379,8 @@ Start Our Team
 						<!-- client info -->
 						<div class="client-info">
 							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
-								<span>Dec 26, 2018</span>
+								<h3>Ricardo Cabrero</h3>
+								<span>Nov 20, 2019</span>
 							</div>
 							<div class="client-comment">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel reiciendis qui in laborum obcaecati expedita blanditiis animi placeat, nemo exercitationem porro. Consequuntur qui commodi minima molestiae, dolores reprehenderit nemo inventore.</p>
@@ -763,8 +402,8 @@ Start Our Team
 						<!-- client info -->
 						<div class="client-info">
 							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
-								<span>Dec 26, 2018</span>
+								<h3>Juan Perez</h3>
+								<span>15 Septiembre, 2019</span>
 							</div>
 							<div class="client-comment">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolorem non delectus neque, voluptatem accusamus atque expedita doloribus minima iusto nemo, numquam eos quia maiores harum! Quaerat illum beatae necessitatibus!</p>
@@ -787,7 +426,7 @@ Start Our Team
 		<div class="row">
 			<!-- section title -->
 			<div class="title text-center wow fadeInDown">
-				<h2> Latest <span class="color">Posts</span></h2>
+				<h2> Ultimos <span class="color">Eventos</span></h2>
 				<div class="border"></div>
 			</div>
 			<!-- /section title -->
@@ -799,7 +438,7 @@ Start Our Team
 							<img src="images/blog/blog-post-1.jpg" alt="amazing caves coverimage" class="img-responsive">
 						</div>
 						<div class="content">
-							<h3><a href="">Simple Image Post</a></h3>
+							<h3><a href="">Imagen simple</a></h3>
 							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
 							<a class="btn btn-transparent" href="blog-single.html">Read more</a>
 						</div>
@@ -823,7 +462,7 @@ Start Our Team
 						</div>
 						
 						<div class="content">
-							<h3><a href="">Simple Slider Post</a></h3>
+							<h3><a href="">Slider Post</a></h3>
 							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
 							<a class="btn btn-transparent" href="blog-single.html">Read more</a>
 						</div>
@@ -839,7 +478,7 @@ Start Our Team
 						</div>
 						
 						<div class="content">
-							<h3><a href="">Simple Image Post</a></h3>
+							<h3><a href="">Imagen Simple</a></h3>
 							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
 							<a class="btn btn-transparent" href="blog-single.html">Read more</a>
 						</div>
@@ -848,7 +487,7 @@ Start Our Team
 				<!-- end single blog post -->
 			</div>
 			<div class="all-post text-center">
-				<a class="btn btn-main" href="blog.html">View All Post</a>
+				<a class="btn btn-main" href="blog.html">Ver todos</a>
 			</div>
 		</div> <!-- end row -->
 	</div> <!-- end container -->
@@ -862,34 +501,34 @@ Start Our Team
 			
 			<!-- section title -->
 			<div class="title text-center wow fadeIn" data-wow-duration="500ms">
-				<h2>Get In <span class="color">Touch</span></h2>
+				<h2>Contactanos <span class="color"></span></h2>
 				<div class="border"></div>
 			</div>
 			<!-- /section title -->
 			
 			<!-- Contact Details -->
 			<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
-				<h3>Contact Details</h3>
+				<h3>Detalles de contacto</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.</p>
 				<div class="contact-details">
 					<div class="con-info clearfix">
 						<i class="tf-map-pin"></i>
-						<span>Khaja Road, Bayzid, Chittagong, Bangladesh</span>
+						<span>El Salvador, San Salvador</span>
 					</div>
 					
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-telephone-outline"></i>
-						<span>Phone: +880-31-000-000</span>
+						<span>Telefono: +503-2222-2222</span>
 					</div>
 					
 					<div class="con-info clearfix">
 						<i class="tf-ion-iphone"></i>
-						<span>Fax: +880-31-000-000</span>
+						<span>Celular: +503-7777-7777</span>
 					</div>
 					
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-email-outline"></i>
-						<span>Email: hello@meghna.com</span>
+						<span>Email: republik@gmail.com</span>
 					</div>
 				</div>
 			</div>
@@ -900,27 +539,27 @@ Start Our Team
 				<form id="contact-form" method="post" action="sendmail.php" role="form">
 				
 					<div class="form-group">
-						<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+						<input type="text" placeholder="Tu nombre" class="form-control" name="name" id="name">
 					</div>
 					
 					<div class="form-group">
-						<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+						<input type="email" placeholder="Tu Correo" class="form-control" name="email" id="email">
 					</div>
 					
 					<div class="form-group">
-						<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+						<input type="text" placeholder="Sobre" class="form-control" name="subject" id="subject">
 					</div>
 					
 					<div class="form-group">
-						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
+						<textarea rows="6" placeholder="Mensaje" class="form-control" name="message" id="message"></textarea>	
 					</div>
 					
 					<div id="mail-success" class="success">
-						Thank you. The Mailman is on His Way :)
+						Gracias. El correo esta en camino :)
 					</div>
 					
 					<div id="mail-fail" class="error">
-						Sorry, don't know what happened. Try later :(
+						Lo sentimos, no sabemos que paso. Prueba nuevamente mas tarde :(
 					</div>
 					
 					<div id="cf-submit">
@@ -949,11 +588,11 @@ Start Our Team
 				<!-- Footer Social Links -->
 				<div class="social-icon">
 					<ul class="list-inline">
-						<li><a href="https://facebook.com/themefisher"><i class="tf-ion-social-facebook"></i></a></li>
-						<li><a href="https://twitter.com/themefisher"><i class="tf-ion-social-twitter"></i></a></li>
-						<li><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA"><i class="tf-ion-social-youtube"></i></a></li>
-						<li><a href="https://dribbble.com/themefisher"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-						<li><a href="https://pinterest.com/themefisher"><i class="tf-ion-social-pinterest-outline"></i></a></li>
+						<li><a href="https://facebook.com/barrepublik"><i class="tf-ion-social-facebook"></i></a></li>
+						<li><a href="https://twitter.com/"><i class="tf-ion-social-twitter"></i></a></li>
+						<li><a href="https://www.youtube.com/"><i class="tf-ion-social-youtube"></i></a></li>
+						<li><a href="https://dribbble.com/"><i class="tf-ion-social-dribbble-outline"></i></a></li>
+						<li><a href="https://pinterest.com/"><i class="tf-ion-social-pinterest-outline"></i></a></li>
 					</ul>
 				</div>
 				<!--/. End Footer Social Links -->
@@ -976,10 +615,10 @@ Start Our Team
 					</a>
 					<br />
 
-					<p>Design And Developed by <a href="http://www.themefisher.com">Themefisher.com</a>. Copyright
+					Copyright
 						&copy; <script>
 							document.write(new Date().getFullYear())
-						</script>. All Rights Reserved.</p>
+						</script>. Todos los derechos reservados.</p>
 				</div>
 				<!-- /copyright -->
 

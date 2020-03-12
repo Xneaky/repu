@@ -49,9 +49,12 @@ class BlogController extends Controller
      * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function show(Blog $blog)
+    public function show($blog)
     {
         //
+        $data = Eventos::find($blog);
+
+        return view('guest.include.blog-content',compact('data'));
     }
 
     /**
@@ -60,9 +63,10 @@ class BlogController extends Controller
      * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function edit(Blog $blog)
+    public function edit(Blog $id)
     {
         //
+
     }
 
     /**

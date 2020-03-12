@@ -24,18 +24,18 @@
 	<!-- CSS
 		================================================== -->
 	<!-- Fontawesome Icon font -->
-	<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/themefisher-font/style.css') }}">
 	<!-- bootstrap.min css -->
-	<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/bootstrap/dist/css/bootstrap.min.css') }}">
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="plugins/animate-css/animate.css">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/animate-css/animate.css') }}">
 	<!-- Magnific popup css -->
-	<link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/magnific-popup/dist/magnific-popup.css') }}">
 	<!-- Slick Carousel -->
-	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/slick-carousel/slick/slick.css') }}">
+	<link rel="stylesheet" href="{{ asset('guest/plugins/slick-carousel/slick/slick-theme.css') }}">
 	<!-- Main Stylesheet -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="{{ asset('guest/css/style.css') }}">
 
 
 </head>
@@ -116,24 +116,7 @@
 <section class="section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1>Innovation distinguishes between a leader and a follower.</h1>
-                <ul class="list-inline mb-50">
-                    <li class="list-inline-item">Thomas Jonson</li>
-                    <li class="list-inline-item">August 8, 2017</li>
-                </ul>
-                <img class="img-fluid mb-50" src="images/blog/blog-single.jpg" alt="blog-image">
-            </div>
-            <div class="col-lg-12">
-                <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
-                <p class="mb-50">Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
-                <blockquote class="mb-50">Design is not just what it looks like and feels like. Design is how it works.</blockquote>
-                <p class="mb-50">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
-                <div class="text-center">
-                    <img class="img-fluid mb-50" src="images/blog/blog-single-post.jpg" alt="image">
-                </div>
-                <p>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
-            </div>
+            @yield('content')
         </div>
     </div>
 </section>
@@ -193,27 +176,27 @@
 		=====================================-->
 		
 		<!-- Main jQuery -->
-		<script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/jquery/dist/jquery.min.js') }}"></script>
 		<!-- Bootstrap 3.1 -->
-		<script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 		<!-- Slick Carousel -->
-		<script type="text/javascript" src="plugins/slick-carousel/slick/slick.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/slick-carousel/slick/slick.min.js') }}"></script>
 		<!-- Portfolio Filtering -->
-		<script type="text/javascript" src="plugins/filterzr/jquery.filterizr.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/filterzr/jquery.filterizr.min.js') }}"></script>
 		<!-- Smooth Scroll -->
-		<script type="text/javascript" src="plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/smooth-scroll/dist/js/smooth-scroll.min.js') }}"></script>
 		<!-- Magnific popup -->
-		<script type="text/javascript" src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/magnific-popup/dist/jquery.magnific-popup.min.js') }}"></script>
 		<!-- Google Map API -->
 		<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
 		<!-- Sticky Nav -->
-		<script type="text/javascript" src="plugins/Sticky/jquery.sticky.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/Sticky/jquery.sticky.js') }}"></script>
 		<!-- Number Counter Script -->
-		<script type="text/javascript" src="plugins/count-to/jquery.countTo.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/count-to/jquery.countTo.js') }}"></script>
 		<!-- wow.min Script -->
-		<script type="text/javascript" src="plugins/wow/dist/wow.min.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/plugins/wow/dist/wow.min.js') }}"></script>
 		<!-- Custom js -->
-		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="{{ asset('guest/js/script.js') }}"></script>
 		
     </body>
 </html>

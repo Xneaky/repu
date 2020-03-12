@@ -441,7 +441,7 @@ Welcome Slider
 						<div class="content">
 							<h3><a href="">{{$evento->Nombre}}</a></h3>
 							<p>{{$evento->Descripcion}}</p>
-							<a class="btn btn-transparent" href="blog-single.html">Read more</a>
+							<a class="btn btn-transparent" href="/blog/{{$evento->id}}">Ver mas</a>
 						</div>
 					</div>						
 				</article>		
@@ -457,7 +457,7 @@ Welcome Slider
 						<div class="content">
 							<h3><a href="">Imagen simple</a></h3>
 							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-							<a class="btn btn-transparent" href="blog-single.html">Read more</a>
+							<a class="btn btn-transparent" href="blog-single.html">Ver mas</a>
 						</div>
 					</div>						
 				</article>
@@ -481,7 +481,7 @@ Welcome Slider
 						<div class="content">
 							<h3><a href="">Slider Post</a></h3>
 							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-							<a class="btn btn-transparent" href="blog-single.html">Read more</a>
+							<a class="btn btn-transparent" href="blog-single.html">Ver mas</a>
 						</div>
 					</div>						
 				</article>

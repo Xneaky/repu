@@ -20,4 +20,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('eventos', 'EventosController')->middleware('auth');
-Route::resource('blog', 'BlogController');
+Route::get('/blog', 'BlogController@index');
+Route::get('/blog/{blog}', 'BlogController@show');

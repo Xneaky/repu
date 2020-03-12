@@ -431,6 +431,23 @@ Welcome Slider
 			</div>
 			<!-- /section title -->
 			<div class="clearfix">
+
+				@forelse ($data as $evento)
+				<article class="col-md-4 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
+					<div class="post-block">
+						<div class="media-wrapper">
+							<img src="{{asset('storage').'/'.$evento->Foto}}" class="img-responsive" alt="amazing caves coverimage" >
+						</div>
+						<div class="content">
+							<h3><a href="">{{$evento->Nombre}}</a></h3>
+							<p>{{$evento->Descripcion}}</p>
+							<a class="btn btn-transparent" href="blog-single.html">Read more</a>
+						</div>
+					</div>						
+				</article>		
+				@empty
+					<h1>No hay</h1>
+				@endforelse
 				<!-- single blog post -->
 				<article class="col-md-4 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
 					<div class="post-block">

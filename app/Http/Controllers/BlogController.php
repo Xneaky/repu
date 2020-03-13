@@ -21,6 +21,15 @@ class BlogController extends Controller
         return view('guest.index',compact('data'));
 
     }
+    
+    public function blog()
+    {
+        //
+
+        $data = Eventos::all();
+        return view('guest.blog',compact('data'));
+
+    }
 
     /**
      * Show the form for creating a new resource.
@@ -49,10 +58,10 @@ class BlogController extends Controller
      * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function show($blog)
+    public function show(Eventos $data)
     {
         //
-        $data = Eventos::find($blog);
+        // $data = Eventos::findOrFail($blog);
 
         return view('guest.include.blog-content',compact('data'));
     }

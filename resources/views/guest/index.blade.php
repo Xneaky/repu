@@ -504,7 +504,7 @@ Welcome Slider
 				<!-- end single blog post -->
 			</div>
 			<div class="all-post text-center">
-				<a class="btn btn-main" href="blog.html">Ver todos</a>
+				<a class="btn btn-main" href="/blog">Ver todos</a>
 			</div>
 		</div> <!-- end row -->
 	</div> <!-- end container -->

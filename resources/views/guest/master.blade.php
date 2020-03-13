@@ -96,14 +96,12 @@
       <!-- main nav -->
       <nav class="collapse navbar-collapse navbar-right" role="Navigation">
         <ul id="nav" class="nav navbar-nav navigation-menu">
-          <li><a data-scroll href="index.html#body">Home</a></li>
-          <li><a data-scroll href="index.html#about">About Us</a></li>
-          <li><a data-scroll href="index.html#services">Services</a></li>
-          <li><a data-scroll href="index.html#portfolio">Portfolio</a></li>
-          <li><a data-scroll href="index.html#our-team">Team</a></li>
-          <li><a data-scroll href="index.html#pricing">Pricing</a></li>
-          <li><a data-scroll href="index.html#blog">Blog</a></li>
-          <li><a data-scroll href="index.html#contact-us">Contact</a></li>
+        <li><a data-scroll href="{{url('/')}}#body">Home</a></li>
+          <li><a data-scroll href="{{url('/')}}#about">Acerca de</a></li>
+          <li><a data-scroll href="{{url('/')}}#services">Servicios</a></li>
+          <li><a data-scroll href="{{url('/')}}#blog">Eventos</a></li>
+          <li><a data-scroll href="{{url('/')}}#contact-us">Contactanos</a></li>
+          <li><a data-scroll href="/login">Login</a></li>
         </ul>
       </nav>
       <!-- /main nav -->
@@ -111,6 +109,8 @@
   </header>
   <!--
   End Fixed Navigation
+
+  yesennia.hernandez@claro.com.sv  54729668
   ==================================== -->
 
 <section class="section">
@@ -159,10 +159,10 @@
 					</a>
 					<br />
 
-					<p>Design And Developed by <a href="http://www.themefisher.com">Themefisher.com</a>. Copyright
+					<p>Copyright
 						&copy; <script>
 							document.write(new Date().getFullYear())
-						</script>. All Rights Reserved.</p>
+						</script>. Todos los derechos reservados.</p>
 				</div>
 				<!-- /copyright -->
 

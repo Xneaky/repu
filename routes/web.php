@@ -13,12 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {return view('dashboard.index');})->middleware('auth');
+Route::get('/dashboard', function () {return view('dashboard.index');})->middleware('auth');
 Route::get('/main', function () {return view('guest.index');});
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'HomeController@index')->name('dashboard');
 Route::resource('eventos', 'EventosController')->middleware('auth');
-Route::get('/blog', 'BlogController@index');
-Route::get('/blog/{blog}', 'BlogController@show');
+Route::get('/', 'BlogController@index');
+Route::get('/blog/{data}', 'BlogController@show');
+Route::get('/blog', 'BlogController@blog');

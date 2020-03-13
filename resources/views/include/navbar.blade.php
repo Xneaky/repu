@@ -9,6 +9,9 @@
         <a href="/dashboard" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
+        <a href="/" class="nav-link">Main</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
         <a href="/eventos" class="nav-link">Eventos</a>
       </li>
     </ul>

@@ -101,7 +101,30 @@
           <li><a data-scroll href="{{url('/')}}#services">Servicios</a></li>
           <li><a data-scroll href="{{url('/')}}#blog">Eventos</a></li>
           <li><a data-scroll href="{{url('/')}}#contact-us">Contactanos</a></li>
-          <li><a data-scroll href="/login">Login</a></li>
+          @guest
+          @if (Route::has('register'))
+          <li><a data-scroll href="/login">Login</a></li>        
+          @endif
+          @else
+        <li role="presentation" class="dropdown">
+            <a data-scroll class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                {{ Auth::user()->name }} <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="{{ route('logout') }}"
+                    onclick="event.preventDefault();
+                                  document.getElementById('logout-form').submit();">
+                      <p>{{ ('Logout') }}</p>
+                      <a class="dropdown-item" >
+                      <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                          @csrf
+                      </form>
+                    </a>
+                  </li>
+            </ul>
+          </li>
+          @endguest
         </ul>
       </nav>
       <!-- /main nav -->

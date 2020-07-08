@@ -23,3 +23,4 @@ Route::resource('eventos', 'EventosController')->middleware('auth');
 Route::get('/', 'BlogController@index');
 Route::get('/blog/{data}', 'BlogController@show');
 Route::get('/blog', 'BlogController@blog');
+Route::resource('usuarios', 'UsersController');

@@ -129,14 +129,18 @@ Welcome Slider
 					  {{ Auth::user()->name }} <span class="caret"></span>
 				  </a>
 				  <ul class="dropdown-menu">
-					  <li>
+					<li>
+						<a href="{{ url ('/dashboard') }}"> Menu </a>
+					</li>
+					<li>
 						  <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
 							{{ ('Logout') }}
 							<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
 								@csrf
 							</form>
 						  </a>
-						</li>
+					</li>
+
 				  </ul>
 				</li>
 				@endguest
